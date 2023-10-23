@@ -1,0 +1,38 @@
+nav{
+    .container{
+        .nav__wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0;
+            justify-content: space-evenly;
+            h1{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                color: #fff;
+                .nav-logo{
+                    font-size: 45px;
+                }
+            }
+            .nav__links{
+                display: flex;
+                gap: 50px;
+                a{
+                    color: var(--White, #FFF);
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.active{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
